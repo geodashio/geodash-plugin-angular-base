@@ -1,0 +1,20 @@
+---
+name: geodash-plugin-angular-base
+less:
+  - base.less
+schemas:
+  - base.yml
+  - baselayers.yml
+  - assets.yml
+  - featurelayers.yml
+  - controls.yml
+  - view.yml
+  - servers.yml
+  - pages.yml
+  - { id: css, path: lib/css.yml}
+  - { id: link, path: lib/link.yml}
+  - { id: intent, path: lib/intent.yml}
+  - { id: intents, path: lib/intents.yml}
+  - { id: placement, path: lib/placement.yml}
+  - { id: position, path: lib/position.yml}
+  - { id: tooltip, path: lib/tooltip.yml}
